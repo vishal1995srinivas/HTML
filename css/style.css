@@ -45,6 +45,7 @@ nav {
 	padding: 0 2rem;
 	height: 0rem; /*for the collapsible nav*/
 	min-height: 10vh;
+	transition: height 1s ease-in-out;
 }
 .nav .nav-items {
 	list-style-type: none;
