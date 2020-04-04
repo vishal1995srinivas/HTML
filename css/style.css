@@ -44,7 +44,7 @@ nav {
 	background: white;
 	padding: 0 2rem;
 	height: 0rem; /*for the collapsible nav*/
-	min-height: 20vh;
+	min-height: 10vh;
 }
 .nav .nav-items {
 	list-style-type: none;
@@ -82,4 +82,16 @@ nav {
 .nav .social i {
 	padding: 1.4rem 0;
 }
+
+.nav .social i:hover {
+	color: #a1c4cf;
+}
 /*Navigation*/
+
+/*Responsive : Viewport less than or equal to 750px*/
+@media only screen and (max-width: 750px) {
+	.nav .nav-menu .nav-items {
+		flex-direction: column;
+	}
+}
+/*Responsive : Viewport less than or equal to 750px*/
