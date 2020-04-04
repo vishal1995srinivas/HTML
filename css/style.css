@@ -67,6 +67,26 @@ nav {
 .nav .nav-menu {
 	justify-content: space-between;
 }
+.nav .toggle-collapse {
+	position: absolute;
+	top: 0%;
+	width: 90%;
+	cursor: pointer;
+	display: none;
+}
+.nav .toggle-collapse .toggle-icons {
+	display: flex;
+
+	justify-content: flex-end;
+	padding: 1.7rem 0;
+}
+.nav .toggle-collapse .toggle-icons i {
+	font-size: 1.4rem;
+	color: var(--text-gray);
+}
+.collapse {
+	height: 40rem;
+}
 
 .nav .nav-brand a {
 	font-size: 1.6rem;
@@ -90,8 +110,14 @@ nav {
 
 /*Responsive : Viewport less than or equal to 750px*/
 @media only screen and (max-width: 750px) {
-	.nav .nav-menu .nav-items {
+	.nav .nav-menu {
 		flex-direction: column;
+	}
+	.nav-items {
+		flex-direction: column;
+	}
+	.nav .toggle-collapse {
+		display: initial;
 	}
 }
 /*Responsive : Viewport less than or equal to 750px*/
