@@ -58,6 +58,12 @@ nav {
 	font-family: var(--Abel);
 	font-size: 1.1rem;
 }
+.nav .nav-items .nav-link:hover {
+	background-color: var(--midnight);
+}
+.nav .nav-items .nav-link:hover a {
+	color: white;
+}
 .nav .nav-menu {
 	justify-content: space-between;
 }
@@ -70,6 +76,10 @@ nav {
 	font-size: 1.6rem;
 }
 .nav .social {
+	padding: 1.4rem 0;
+}
+
+.nav .social i {
 	padding: 1.4rem 0;
 }
 /*Navigation*/
