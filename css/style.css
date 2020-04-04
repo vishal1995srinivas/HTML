@@ -38,6 +38,25 @@ a {
 ul {
 	list-style-type: none;
 }
+h1 {
+	font-family: var(--Lexend);
+	font-size: 2.5rem;
+}
+h3 {
+	font-family: var(--Abel);
+	font-size: 1.3rem;
+}
+h2 {
+	font-family: var(--Lexend);
+}
+button.btn {
+	border: none;
+	border-radius: 2rem;
+	padding: 1rem 3rem;
+	font-size: 1rem;
+	font-family: var(--Livvic);
+	cursor: pointer;
+}
 /*global classes*/
 /*Navigation*/
 nav {
@@ -107,7 +126,40 @@ nav {
 .nav .social i:hover {
 	color: #a1c4cf;
 }
+
 /*Navigation*/
+
+/*Main content*/
+/*Site title*/
+main .site-title {
+	background: url('../assets/Background-image.png');
+	background-size: cover;
+	height: 110vh;
+	display: flex;
+	justify-content: center;
+}
+
+main .site-title .site-background {
+	padding-top: 10rem;
+	text-align: center;
+	color: #fff;
+}
+main .site-title h1 h3 {
+	margin: 0.3rem;
+}
+main .site-title .btn {
+	margin: 1.8rem;
+	background: var(--sky);
+}
+
+main .site-title .btn:hover {
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+}
+/*Site title*/
+
+/*Main content*/
 
 /*Responsive : Viewport less than or equal to 750px*/
 @media only screen and (max-width: 750px) {
